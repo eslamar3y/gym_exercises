@@ -7,6 +7,8 @@ import ExerciseDetail from "./pages/ExerciseDetail";
 import Home from "./pages/Home";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Equipments from "./pages/Equipments";
+import AddData from "./pages/AddData";
 
 const App = () => (
   <Box width="400px" sx={{ width: { xl: "1488px" } }} m="auto">
@@ -14,6 +16,8 @@ const App = () => (
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/exercise/:id" element={<ExerciseDetail />} />
+      <Route path="/add-data/:id" element={<AddData />} />
+      <Route path="Equipments" element={<Equipments />} />
     </Routes>
     <Footer />
   </Box>

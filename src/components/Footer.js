@@ -4,7 +4,7 @@ import Logo from "../assets/images/Logo-1.png";
 
 const Footer = () => (
   <Box mt="80px" bgcolor="#FFF3F4">
-    <Stack
+    {/* <Stack
       gap="40px"
       sx={{ alignItems: "center" }}
       flexWrap="wrap"
@@ -21,7 +21,7 @@ const Footer = () => (
       pb="40px"
     >
       Made with ❤️ by Eslam Mohamed
-    </Typography>
+    </Typography> */}
   </Box>
 );
 

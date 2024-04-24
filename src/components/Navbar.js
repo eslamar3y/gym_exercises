@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { Stack } from "@mui/material";
 import Logo from "../assets/images/Logo.png";
 
@@ -39,6 +39,12 @@ function Navbar() {
         >
           Exercises
         </a>
+        <NavLink
+          style={{ textDecoration: "none", color: "#3A1212" }}
+          to="equipments"
+        >
+          Equipments
+        </NavLink>
         <Link></Link>
       </Stack>
     </Stack>
